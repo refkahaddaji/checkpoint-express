@@ -1,0 +1,85 @@
+<html>
+    <head> 
+        <title> home</title>
+        <link rel="stylesheet" type="text/css" href="styles/style1.css"/>
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+        <link href="styles/styles.css" rel="stylesheet">
+        <link href="styles/loader.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+        <link href="styles/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles/font-awesome.min.css">
+    </head>
+
+    <body >
+      
+            <%-include('navbar.ejs')%>
+        
+     <!--    <div id="loader-wrapper">
+			<div id="loader"><div class="sk-spinner sk-spinner-cube-grid"><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div></div></div>
+		</div> -->
+        <section id="header">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-8">
+						
+						<h1  style="color:#F50057">Welcome To our Page</h1>
+						<h5 class="white-text" >Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt.</h5>
+						<div id="countdown" class="white-text"></div>
+					</div>
+				</div>
+			</div>
+			<div class="animation">
+			<a class="arrow-down-animation" data-scroll="" ><i class="fa fa-angle-down"></i></a>
+			</div>
+            </section>
+            <section id="about">
+                <div class="container">
+                    <div class="row text-center">
+                        <!-- Section 1 -->
+                        <div class="col-md-4" style="visibility: visible; transform: translateY(0) scale(1); opacity: 1; -webkit-transform: translateY(0) scale(1); opacity: 1; -webkit-transition: -webkit-transform 1s ease 0s, opacity 1s ease 0s; transition: transform 1s ease 0s, opacity 1s ease 0s; -webkit-perspective: 1000; -webkit-backface-visibility: hidden; ">
+                            <i class="fa fa-laptop"></i>
+                            <h3>Responsive Design</h3>
+                            <div class="colored-line-small-center"></div>
+                            <p>Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        </div>
+                        <!-- Section 2 -->
+                        <div class="col-md-4 middle" style="visibility: visible; transform: translateY(0) scale(1); opacity: 1; -webkit-transform: translateY(0) scale(1); opacity: 1; -webkit-transition: -webkit-transform 1s ease 0s, opacity 1s ease 0s; transition: transform 1s ease 0s, opacity 1s ease 0s; -webkit-perspective: 1000; -webkit-backface-visibility: hidden; ">
+                            <i class="fa fa-lightbulb-o" ></i>
+                            <h3>Creative Design</h3>
+                            <div class="colored-line-small-center"></div>						
+                            <p>Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.</p>						
+                        </div>
+                        <!-- Section 3 -->
+                        <div class="col-md-4" style="visibility: visible; transform: translateY(0) scale(1); opacity: 1; -webkit-transform: translateY(0) scale(1); opacity: 1; -webkit-transition: -webkit-transform 1s ease 0s, opacity 1s ease 0s; transition: transform 1s ease 0s, opacity 1s ease 0s; -webkit-perspective: 1000; -webkit-backface-visibility: hidden; ">
+                            <i class="fa fa-newspaper-o"></i>
+                            <h3>Mailchimp Ready</h3>
+                            <div class="colored-line-small-center"></div>
+                            <p>Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.</p>						
+                        </div>
+                    </div>
+                </div>			
+            </section>
+
+            <section id="subscribe" style="background-position: 50% 0px;">
+                <div class="container">
+                    <i class="fa fa-envelope icontop" style="visibility: visible; transform: translateY(over) scale(0.95); opacity: 0; -webkit-transform: translateY(over) scale(0.95); opacity: 0; -webkit-transition: -webkit-transform 1s ease-in 0s, opacity 1s ease-in 0s; transition: transform 1s ease-in 0s, opacity 1s ease-in 0s; -webkit-perspective: 1000; -webkit-backface-visibility: hidden; "></i>
+                    <div class="row text-center">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h2 class="white-text" style="visibility: visible; transform: translateY(-24px) scale(0.95); opacity: 0; -webkit-transform: translateY(-24px) scale(0.95); opacity: 0; -webkit-transition: -webkit-transform 1s ease 0s, opacity 1s ease 0s; transition: transform 1s ease 0s, opacity 1s ease 0s; -webkit-perspective: 1000; -webkit-backface-visibility: hidden; ">Sign up to our Newsletter</h2>
+                            <h5 class="white-text" style="visibility: visible; transform: translateY(24px) scale(0.95); opacity: 0; -webkit-transform: translateY(24px) scale(0.95); opacity: 0; -webkit-transition: -webkit-transform 1s ease 0s, opacity 1s ease 0s; transition: transform 1s ease 0s, opacity 1s ease 0s; -webkit-perspective: 1000; -webkit-backface-visibility: hidden; ">Stay up2date with climb-up</h5>
+                            <!-- MAILCHIMP FORM -->
+                            <form id="mc_form" role="form">
+                                <input type="email" class="form-control" id="mc-email" name="mc-email" placeholder="Your Email" style="visibility: visible; transform: translateY(-24px) scale(0.95); opacity: 0; -webkit-transform: translateY(-24px) scale(0.95); opacity: 0; -webkit-transition: -webkit-transform 1s ease 0s, opacity 1s ease 0s; transition: transform 1s ease 0s, opacity 1s ease 0s; -webkit-perspective: 1000; -webkit-backface-visibility: hidden; ">
+                                <button type="submit" class="button-leweb" style="visibility: visible; transform: translateY(24px) scale(0.95); opacity: 0; -webkit-transform: translateY(24px) scale(0.95); opacity: 0; -webkit-transition: -webkit-transform 1s ease 0s, opacity 1s ease 0s; transition: transform 1s ease 0s, opacity 1s ease 0s; -webkit-perspective: 1000; -webkit-backface-visibility: hidden; ">Submit</button>
+                                <label for="mc-email" class="mc-email"></label>
+                            </form>
+                            <!-- MAILCHIMP FORM ENDS -->
+                        </div>
+                    </div>
+                </div>	
+            </section>
+
+		
+    </body>
+</html>
